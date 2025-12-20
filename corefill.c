@@ -7,8 +7,8 @@
 #include "php.h"
 #include "ext/standard/info.h"
 #include "php_corefill.h"
-#include "php84.h"
-#include "php85.h"
+#include "versions/php84.h"
+#include "versions/php85.h"
 #include "utils.h"
 
  

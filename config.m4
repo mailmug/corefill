@@ -105,8 +105,8 @@ AS_VAR_IF([PHP_COREFILL], [no],, [
   PHP_NEW_EXTENSION([corefill],
     [corefill.c \
     utils.c \
-    php84.c \
-    php85.c],
+    versions/php84.c \
+    versions/php85.c],
     [$ext_shared],,
     [-DZEND_ENABLE_STATIC_TSRMLS_CACHE=1])
 ])

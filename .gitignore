@@ -45,3 +45,5 @@ tests/**/*.db
 tests/**/*.mem
 tmp-php.ini
 *~
+.vscode
+.vscode/*

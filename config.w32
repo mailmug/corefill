@@ -5,6 +5,6 @@ if (PHP_COREFILL != 'no') {
 
 	EXTENSION('corefill', 'corefill.c \
 	utils.c \
-	php84.c \
-	php85.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+	versions/php84.c \
+	versions/php85.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
 }
