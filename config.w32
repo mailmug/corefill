@@ -1,0 +1,10 @@
+ARG_ENABLE('corefill', 'corefill support', 'no');
+
+if (PHP_COREFILL != 'no') {
+	AC_DEFINE('HAVE_COREFILL', 1, "Define to 1 if the PHP extension 'corefill' is available.");
+
+	EXTENSION('corefill', 'corefill.c \
+	utils.c \
+	php84.c \
+	php85.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+}
