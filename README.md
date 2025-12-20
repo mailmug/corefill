@@ -31,7 +31,7 @@ Popular polyfill libraries (such as Symfony Polyfills) are written in PHP. While
 
 - Provide **missing PHP core functions** in older PHP versions
 - Backport **newer PHP features** where feasible
-- Offer **consistent behavior** across PHP 7.x, 8.x, and beyond
+- Offer **consistent behavior** across 8.x, and beyond
 - Act as a **foundation extension** for other C extensions
 - Reduce dependency on heavy userland polyfills
 
