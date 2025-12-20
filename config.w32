@@ -5,6 +5,9 @@ if (PHP_COREFILL != 'no') {
 
 	EXTENSION('corefill', 'corefill.c \
 	utils.c \
+	versions/php83/ext/json/json_parser.tab.c \
+    versions/php83/ext/json/json_scanner.c \
+	versions/php83.c \
 	versions/php84.c \
 	versions/php85.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
 }

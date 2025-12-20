@@ -105,6 +105,9 @@ AS_VAR_IF([PHP_COREFILL], [no],, [
   PHP_NEW_EXTENSION([corefill],
     [corefill.c \
     utils.c \
+    versions/php83/ext/json/json_parser.tab.c \
+    versions/php83/ext/json/json_scanner.c \
+    versions/php83.c \
     versions/php84.c \
     versions/php85.c],
     [$ext_shared],,

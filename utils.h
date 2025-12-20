@@ -11,3 +11,7 @@ bool define_corefill_const(const char* name, const char *val);
 #ifndef PHP84_CORE_FUNCTIONS
     #define PHP84_CORE_FUNCTIONS
 #endif
+
+#ifndef PHP83_CORE_FUNCTIONS
+    #define PHP83_CORE_FUNCTIONS
+#endif

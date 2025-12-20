@@ -7,10 +7,10 @@
 #include "php.h"
 #include "ext/standard/info.h"
 #include "php_corefill.h"
+#include "versions/php83.h"
 #include "versions/php84.h"
 #include "versions/php85.h"
 #include "utils.h"
-
  
 
 PHP_RINIT_FUNCTION(corefill)
@@ -23,9 +23,6 @@ PHP_RINIT_FUNCTION(corefill)
 	define_corefill_const_php84();
 #endif
 
-#if PHP_VERSION_ID < 80500
-	define_corefill_const_php85();
-#endif
 
 	return SUCCESS;
 }
@@ -38,6 +35,7 @@ PHP_MINFO_FUNCTION(corefill)
 }
 
 static const zend_function_entry ext_functions[] = {
+	PHP83_CORE_FUNCTIONS
 	PHP84_CORE_FUNCTIONS
 	PHP85_CORE_FUNCTIONS
 	ZEND_FE_END
