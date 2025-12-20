@@ -55,7 +55,6 @@ Corefill focuses on features that are:
 - Internal constants
 - Engine quirks across versions
 
-> ⚠️ Syntax-level language changes cannot be polyfilled and are out of scope.
 
 ---
 
