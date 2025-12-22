@@ -2,7 +2,7 @@
     "name": "mailmug/corefill",
     "type": "php-ext",
     "license": "BSD-3-Clause",
-    "description": "Describe your extension here",
+    "description": "C-based Symfony polyfill alternative for PHP, delivering native performance.",
     "require": {
         "php": "^8.0"
     },
