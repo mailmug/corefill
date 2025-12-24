@@ -73,6 +73,10 @@ Corefill focuses on features that are:
 
 ## Installation
 
+```bash
+pie install mailmug/corefill
+```
+
 ### From Source
 
 ```bash
